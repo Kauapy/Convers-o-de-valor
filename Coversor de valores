@@ -1,0 +1,4 @@
+metros=float(input("Digite a distancia:"))
+centimetro=metros*100
+milimetro=metros*1000
+print(f"O valor de {metros} m foi convertido em {centimetro} cm e em {milimetro} mm")
