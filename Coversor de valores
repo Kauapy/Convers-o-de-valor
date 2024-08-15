@@ -1,4 +1,10 @@
 metros=float(input("Digite a distancia:"))
 centimetro=metros*100
+decimetro= metros*10
 milimetro=metros*1000
-print(f"O valor de {metros} m foi convertido em {centimetro} cm e em {milimetro} mm")
+decametro=metros/10
+hectometro=metros/100
+kilometro=metros/1000
+
+print(f"O valor de {metros}m foi convertido em {decimetro}dm, foi convertido em {centimetro}cm e em {milimetro}mm")
+print(f"O valor de {metros}m foi convertido em {decametro}dam, foi convertido em {hectometro}hm e em {kilometro}km")
